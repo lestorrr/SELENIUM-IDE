@@ -1,0 +1,170 @@
+{
+  "id": "4b178d68-9fb5-4c8c-9bca-0779c6b6f1f0",
+  "version": "2.0",
+  "name": "Log in Module Admin",
+  "url": "http://p1wwebd08",
+  "tests": [{
+    "id": "45f33e66-7eef-4372-9533-81bd6a29cd84",
+    "name": "Untitled",
+    "commands": [{
+      "id": "eb3fe46b-fa2b-444a-9af1-34cae75663a2",
+      "comment": "",
+      "command": "open",
+      "target": "/lmsv2/auth/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f067efc-8d54-4ece-a778-0148f45c310b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x746",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d6744ea-ee06-4287-bcb2-aeec2eec29e3",
+      "comment": "",
+      "command": "click",
+      "target": "id=active_directory",
+      "targets": [
+        ["id=active_directory", "id"],
+        ["linkText=Active Directory", "linkText"],
+        ["css=#active_directory", "css:finder"],
+        ["xpath=//a[contains(text(),'Active Directory')]", "xpath:link"],
+        ["xpath=//a[@id='active_directory']", "xpath:attributes"],
+        ["xpath=//div[@id='pnlLogin']/div/div/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#frmActiveDirectory')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Active Directory')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6554b3d4-e3e7-4bb9-9cff-ca2f65ee12de",
+      "comment": "",
+      "command": "click",
+      "target": "id=ademployee",
+      "targets": [
+        ["id=ademployee", "id"],
+        ["name=employee", "name"],
+        ["css=#ademployee", "css:finder"],
+        ["xpath=//input[@id='ademployee']", "xpath:attributes"],
+        ["xpath=//div[@id='frmActiveDirectory']/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87c85db5-6984-47f4-b449-7fc430ebe2e1",
+      "comment": "",
+      "command": "type",
+      "target": "id=ademployee",
+      "targets": [
+        ["id=ademployee", "id"],
+        ["name=employee", "name"],
+        ["css=#ademployee", "css:finder"],
+        ["xpath=//input[@id='ademployee']", "xpath:attributes"],
+        ["xpath=//div[@id='frmActiveDirectory']/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "JMOYA"
+    }, {
+      "id": "370cc3ad-7327-4517-83dd-93c6b9290457",
+      "comment": "",
+      "command": "click",
+      "target": "id=adpassword",
+      "targets": [
+        ["id=adpassword", "id"],
+        ["name=password", "name"],
+        ["css=#adpassword", "css:finder"],
+        ["xpath=//input[@id='adpassword']", "xpath:attributes"],
+        ["xpath=//div[@id='frmActiveDirectory']/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0889186f-43e0-4777-94cc-79281738a346",
+      "comment": "",
+      "command": "type",
+      "target": "id=adpassword",
+      "targets": [
+        ["id=adpassword", "id"],
+        ["name=password", "name"],
+        ["css=#adpassword", "css:finder"],
+        ["xpath=//input[@id='adpassword']", "xpath:attributes"],
+        ["xpath=//div[@id='frmActiveDirectory']/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Ciana052497!3"
+    }, {
+      "id": "8753778d-854a-4f41-84cd-5cbe5d3a3075",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(4)",
+      "targets": [
+        ["css=.btn:nth-child(4)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='frmActiveDirectory']/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbe4be5c-6946-417e-878e-0a42f9724a65",
+      "comment": "",
+      "command": "click",
+      "target": "id=navbarDropdown",
+      "targets": [
+        ["id=navbarDropdown", "id"],
+        ["css=#navbarDropdown", "css:finder"],
+        ["xpath=//a[@id='navbarDropdown']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarCollapse']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bd56869-9e27-4d01-b196-96ad27d48122",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.show > .dropdown-item:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='navbarCollapse']/ul/li[3]/div/a[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[5]", "xpath:href"],
+        ["xpath=//li[3]/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,' Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "960d5916-769d-4d78-a896-84104bbc610d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='logoutModal']/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://p1wwebd08/lmsv2/auth/logout']", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5c12d47-aa20-4a05-b986-ff41dd1c6392",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f2ae6b1a-9b33-4e0d-8076-8bc4894f7d15",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["45f33e66-7eef-4372-9533-81bd6a29cd84"]
+  }],
+  "urls": ["http://p1wwebd08/"],
+  "plugins": []
+}
